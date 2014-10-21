@@ -18,7 +18,6 @@
 
 // put new methods here
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
-    [self addObstacle];timeSinceObstacle = 0.0f;
     // this will get called every time the player touches the screen
     [character flap];
 }
