@@ -3,7 +3,7 @@
 #import "Obstacle.h"
 
 @implementation GamePlayScene
-[self addObstacle];
+
 - (void)initialize
 {
     // your code here
