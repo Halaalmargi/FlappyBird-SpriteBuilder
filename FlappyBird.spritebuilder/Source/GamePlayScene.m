@@ -16,10 +16,14 @@
 {
     // Increment the time since the last obstacle was added
     timeSinceObstacle += delta; // delta is approximately 1/60th of a second
-    
+}
     // Check to see if two seconds have passed
     if (timeSinceObstacle > 2.0f)
     {
+        {
+            // touches the screen
+            [character flap];
+        }
         // Add a new obstacle
         [self addObstacle];
         
@@ -37,7 +41,7 @@
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     [self addObstacle];timeSinceObstacle = 0.0f;
     // this will get called every time the player touches the screen
-    
+}
     [character flap];
 }
 
